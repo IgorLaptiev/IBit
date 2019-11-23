@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DB4735DE-CAD4-421A-BFA8-87A86505D301}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ExercisesAlgo</RootNamespace>
+    <AssemblyName>ExercisesAlgo</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ConsoleDump, Version=0.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ConsoleDump.0.7.0\lib\net45\ConsoleDump.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arrays\ArrayPermutation.cs" />
+    <Compile Include="Arrays\Distance.cs" />
+    <Compile Include="Arrays\Duplicates.cs" />
+    <Compile Include="Arrays\Hotel.cs" />
+    <Compile Include="Arrays\LargestNumber.cs" />
+    <Compile Include="Arrays\MaximumConsecutiveGap.cs" />
+    <Compile Include="Arrays\MaximumUnsortedSubArray.cs" />
+    <Compile Include="Arrays\Maxspprod.cs" />
+    <Compile Include="Arrays\MissingPositive.cs" />
+    <Compile Include="Bits\MinXORvalue.cs" />
+    <Compile Include="Bits\NumberBits.cs" />
+    <Compile Include="Bits\ReverseBits.cs" />
+    <Compile Include="Bits\SingleNumber.cs" />
+    <Compile Include="BS\ArraysMedian.cs" />
+    <Compile Include="BS\Books.cs" />
+    <Compile Include="BS\CountElementOccurence.cs" />
+    <Compile Include="BS\InsertedPosition.cs" />
+    <Compile Include="BS\MatrixMedian.cs" />
+    <Compile Include="BS\MatrixSearch.cs" />
+    <Compile Include="BS\Painters.cs" />
+    <Compile Include="BS\Pow.cs" />
+    <Compile Include="BS\RangeSearch.cs" />
+    <Compile Include="BS\RotatedArray.cs" />
+    <Compile Include="BS\Sqrt.cs" />
+    <Compile Include="Mathe\CityTour.cs" />
+    <Compile Include="Mathe\CommonDivisor.cs" />
+    <Compile Include="Mathe\ExcelColToNumber.cs" />
+    <Compile Include="Mathe\FizzBuzz.cs" />
+    <Compile Include="Mathe\HammingDistance.cs" />
+    <Compile Include="Mathe\LargestCoprimeDivisor.cs" />
+    <Compile Include="Mathe\Numbers.cs" />
+    <Compile Include="Mathe\PolindromInteger.cs" />
+    <Compile Include="Mathe\PowerOfIntegers.cs" />
+    <Compile Include="Mathe\PrettyPrint.cs" />
+    <Compile Include="Mathe\PrimeSum.cs" />
+    <Compile Include="Mathe\RearrangeArray.cs" />
+    <Compile Include="Mathe\ReverseInteger.cs" />
+    <Compile Include="Mathe\SortedPermutationRank.cs" />
+    <Compile Include="Mathe\TrailingZeros.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Arrays\RotateMatrix.cs" />
+    <Compile Include="Arrays\SimpleQueries.cs" />
+    <Compile Include="Arrays\WaveSort.cs" />
+    <Compile Include="Strings\Atoi.cs" />
+    <Compile Include="Strings\JsonFormatter.cs" />
+    <Compile Include="Strings\JustifiedText.cs" />
+    <Compile Include="Strings\LongestPalindromicSubstring.cs" />
+    <Compile Include="Strings\MakePalindrome.cs" />
+    <Compile Include="Strings\Palindrome.cs" />
+    <Compile Include="Strings\PowerOf2.cs" />
+    <Compile Include="Strings\ReverseString.cs" />
+    <Compile Include="Strings\ValidIps.cs" />
+    <Compile Include="Strings\Versions.cs" />
+    <Compile Include="Strings\ZigZagString.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
