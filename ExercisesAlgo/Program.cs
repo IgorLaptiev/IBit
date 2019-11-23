@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using ExercisesAlgo._2Pointers;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
 using ExercisesAlgo.Mathe;
@@ -15,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new SingleNumber().Execute();
+            new Diffk().Execute();
             Console.ReadKey();
         }
 

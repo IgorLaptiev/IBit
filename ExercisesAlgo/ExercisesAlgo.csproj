@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2Pointers\Diffk.cs" />
+    <Compile Include="2Pointers\MinimizeDifference.cs" />
     <Compile Include="Arrays\ArrayPermutation.cs" />
     <Compile Include="Arrays\Distance.cs" />
     <Compile Include="Arrays\Duplicates.cs" />
