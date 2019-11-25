@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="2Pointers\Diffk.cs" />
+    <Compile Include="2Pointers\Intersection.cs" />
+    <Compile Include="2Pointers\MaxContSeries.cs" />
     <Compile Include="2Pointers\MinimizeDifference.cs" />
     <Compile Include="Arrays\ArrayPermutation.cs" />
     <Compile Include="Arrays\Distance.cs" />
@@ -57,6 +59,8 @@
     <Compile Include="Arrays\MaximumUnsortedSubArray.cs" />
     <Compile Include="Arrays\Maxspprod.cs" />
     <Compile Include="Arrays\MissingPositive.cs" />
+    <Compile Include="Bits\DifferentBits.cs" />
+    <Compile Include="Bits\DivideIntegers.cs" />
     <Compile Include="Bits\MinXORvalue.cs" />
     <Compile Include="Bits\NumberBits.cs" />
     <Compile Include="Bits\ReverseBits.cs" />
@@ -92,15 +96,23 @@
     <Compile Include="Arrays\RotateMatrix.cs" />
     <Compile Include="Arrays\SimpleQueries.cs" />
     <Compile Include="Arrays\WaveSort.cs" />
+    <Compile Include="Strings\AddBinaryStrings.cs" />
+    <Compile Include="Strings\AmazingSubarrays.cs" />
     <Compile Include="Strings\Atoi.cs" />
+    <Compile Include="Strings\CountAndSay.cs" />
     <Compile Include="Strings\JsonFormatter.cs" />
     <Compile Include="Strings\JustifiedText.cs" />
+    <Compile Include="Strings\LastWord.cs" />
     <Compile Include="Strings\LongestPalindromicSubstring.cs" />
     <Compile Include="Strings\MakePalindrome.cs" />
     <Compile Include="Strings\Palindrome.cs" />
     <Compile Include="Strings\PowerOf2.cs" />
+    <Compile Include="Strings\Prefixes.cs" />
     <Compile Include="Strings\ReverseString.cs" />
+    <Compile Include="Strings\RomanToInteger.cs" />
+    <Compile Include="Strings\Stringoholics.cs" />
     <Compile Include="Strings\ValidIps.cs" />
+    <Compile Include="Strings\ValidNumber.cs" />
     <Compile Include="Strings\Versions.cs" />
     <Compile Include="Strings\ZigZagString.cs" />
   </ItemGroup>
