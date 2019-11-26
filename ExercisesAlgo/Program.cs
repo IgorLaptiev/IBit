@@ -16,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new RemoveDublicates().Execute();
+            new MaxContSeries().Execute();
             Console.ReadKey();
         }
 
