@@ -31,3 +31,6 @@ Ankh.NoLoad
 /packages
 packages
 
+*.orig
+bin
+obj
