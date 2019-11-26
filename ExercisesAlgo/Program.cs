@@ -16,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new Diffk().Execute();
+            new RemoveDublicates().Execute();
             Console.ReadKey();
         }
 

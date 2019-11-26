@@ -22,9 +22,12 @@
 *.vs
 ipch/
 obj/
-[Bb]in
+[Bb]in/
 [Dd]ebug*/
 [Rr]elease*/
 Ankh.NoLoad
 /.vs
+
+/packages
+packages
 
