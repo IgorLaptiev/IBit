@@ -74,10 +74,5 @@ namespace ExercisesAlgo._2Pointers
         {
             return Math.Abs(Math.Max(Math.Max(a, b), c) - Math.Min(Math.Min(a, b), c));
         }
-
-        private static int GetValue(int a, int b)
-        {
-            return Math.Abs(Math.Max(a, b) - Math.Min(a, b));
-        }
     }
 }

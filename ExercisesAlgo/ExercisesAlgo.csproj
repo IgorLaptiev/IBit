@@ -46,12 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2Pointers\Array3Pointers.cs" />
     <Compile Include="2Pointers\Diffk.cs" />
     <Compile Include="2Pointers\MergeSortedArrays.cs" />
     <Compile Include="2Pointers\Intersection.cs" />
     <Compile Include="2Pointers\MaxContSeries.cs" />
     <Compile Include="2Pointers\MinimizeDifference.cs" />
     <Compile Include="2Pointers\RemoveDublicates.cs" />
+    <Compile Include="2Pointers\RemoveDuplicates2.cs" />
+    <Compile Include="2Pointers\WaterTank.cs" />
     <Compile Include="Arrays\ArrayPermutation.cs" />
     <Compile Include="Arrays\Distance.cs" />
     <Compile Include="Arrays\Duplicates.cs" />
