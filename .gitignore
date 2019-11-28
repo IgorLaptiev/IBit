@@ -35,3 +35,4 @@ packages
 *.orig
 bin
 obj
+.idea
