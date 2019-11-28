@@ -16,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new RemoveDuplicates2().Execute();
+            new SortColors().Execute();
             Console.ReadKey();
         }
 
