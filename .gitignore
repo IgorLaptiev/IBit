@@ -20,11 +20,12 @@
 *.sdf
 *.dbmdl
 *.vs
-ipch/
-obj/
-[Bb]in/
 [Dd]ebug*/
 [Rr]elease*/
+ipch/
+obj/
+.idea/
+[Bb]in/
 Ankh.NoLoad
 /.vs
 
