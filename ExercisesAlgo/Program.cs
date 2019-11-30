@@ -16,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new SortColors().Execute();
+            new Sum3().Execute();
             Console.ReadKey();
         }
 

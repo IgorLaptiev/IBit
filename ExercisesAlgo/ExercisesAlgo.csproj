@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="2Pointers\Sum3.cs" />
     <Compile Include="2Pointers\Array3Pointers.cs" />
     <Compile Include="2Pointers\Diffk.cs" />
     <Compile Include="2Pointers\MergeSortedArrays.cs" />
