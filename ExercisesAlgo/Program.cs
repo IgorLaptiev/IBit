@@ -16,7 +16,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new Sum3().Execute();
+            new Sum3Zero().Execute();
             Console.ReadKey();
         }
 
