@@ -85,6 +85,11 @@
     <Compile Include="BS\RangeSearch.cs" />
     <Compile Include="BS\RotatedArray.cs" />
     <Compile Include="BS\Sqrt.cs" />
+    <Compile Include="LinkedList\DeleteDuplicates.cs" />
+    <Compile Include="LinkedList\Intersection.cs" />
+    <Compile Include="LinkedList\ListNode.cs" />
+    <Compile Include="LinkedList\PalindromeList.cs" />
+    <Compile Include="LinkedList\Reverse.cs" />
     <Compile Include="Mathe\CityTour.cs" />
     <Compile Include="Mathe\CommonDivisor.cs" />
     <Compile Include="Mathe\ExcelColToNumber.cs" />

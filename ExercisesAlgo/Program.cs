@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using ExercisesAlgo._2Pointers;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
+using ExercisesAlgo.LinkedList;
 using ExercisesAlgo.Mathe;
 using ExercisesAlgo.Strings;
 
@@ -16,7 +17,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new Triangles().Execute();
+            new PalindromeList().Execute();
             Console.ReadKey();
         }
 
