@@ -17,7 +17,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new PalindromeList().Execute();
+            new MergeSortedLists().Execute();
             Console.ReadKey();
         }
 

@@ -37,7 +37,8 @@ namespace ExercisesAlgo.LinkedList
             if (A == null) return 0;
             var length = this.length(A);
             if (length == 1) return 1;
-            if (testPalindrom(A, length, out var tail))
+            ListNode tail;
+            if (testPalindrom(A, length, out tail))
             {
                 return 1;
             }
@@ -61,7 +62,8 @@ namespace ExercisesAlgo.LinkedList
             }
             
             var savehead = head;
-            var isPalindrome = testPalindrom(head.next, length-2, out var innertail);
+            ListNode innertail;
+            var isPalindrome = testPalindrom(head.next, length-2, out innertail);
 
             if (innertail != null)
             {
