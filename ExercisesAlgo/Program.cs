@@ -17,7 +17,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new MergeSortedLists().Execute();
+            new Reverse().Execute();
             Console.ReadKey();
         }
 
