@@ -17,7 +17,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new Reverse().Execute();
+            new ReverseK().Execute();
             Console.ReadKey();
         }
 
