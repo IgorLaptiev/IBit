@@ -92,6 +92,7 @@
     <Compile Include="LinkedList\MergeSortedLists.cs" />
     <Compile Include="LinkedList\PalindromeList.cs" />
     <Compile Include="LinkedList\Removenth.cs" />
+    <Compile Include="LinkedList\Reorder.cs" />
     <Compile Include="LinkedList\Reverse.cs" />
     <Compile Include="LinkedList\RotateList.cs" />
     <Compile Include="Mathe\CityTour.cs" />
