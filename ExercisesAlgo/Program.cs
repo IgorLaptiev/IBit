@@ -17,7 +17,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new Reorder().Execute();
+            new PartitionList().Execute();
             Console.ReadKey();
         }
 
