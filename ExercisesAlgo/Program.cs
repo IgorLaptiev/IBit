@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using ExercisesAlgo._2Pointers;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
+using ExercisesAlgo.Graphs;
 using ExercisesAlgo.LinkedList;
 using ExercisesAlgo.Mathe;
 using ExercisesAlgo.Strings;
@@ -17,7 +18,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new PartitionList().Execute();
+            new MergeSort().Execute();
             Console.ReadKey();
         }
 

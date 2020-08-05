@@ -85,10 +85,13 @@
     <Compile Include="BS\RangeSearch.cs" />
     <Compile Include="BS\RotatedArray.cs" />
     <Compile Include="BS\Sqrt.cs" />
+    <Compile Include="Graphs\MinimumPermutations.cs" />
     <Compile Include="LinkedList\DeleteDuplicates.cs" />
     <Compile Include="LinkedList\DeleteDuplicates2.cs" />
+    <Compile Include="LinkedList\InsertionSort.cs" />
     <Compile Include="LinkedList\Intersection.cs" />
     <Compile Include="LinkedList\ListNode.cs" />
+    <Compile Include="LinkedList\MergeSort.cs" />
     <Compile Include="LinkedList\MergeSortedLists.cs" />
     <Compile Include="LinkedList\PalindromeList.cs" />
     <Compile Include="LinkedList\PartitionList.cs" />
@@ -127,6 +130,7 @@
     <Compile Include="Strings\LastWord.cs" />
     <Compile Include="Strings\LongestPalindromicSubstring.cs" />
     <Compile Include="Strings\MakePalindrome.cs" />
+    <Compile Include="Strings\MinWindow.cs" />
     <Compile Include="Strings\Palindrome.cs" />
     <Compile Include="Strings\PowerOf2.cs" />
     <Compile Include="Strings\Prefixes.cs" />
