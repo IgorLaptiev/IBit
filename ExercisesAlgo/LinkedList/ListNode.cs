@@ -14,7 +14,7 @@ namespace ExercisesAlgo.LinkedList
             this.next = null;
         }
 
-        public ListNode(int[] arr)
+        public ListNode(params int[] arr)
         {
             val = arr[0];
             var nexts = arr.Skip(1).ToArray();

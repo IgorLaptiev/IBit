@@ -10,6 +10,7 @@ using ExercisesAlgo.BS;
 using ExercisesAlgo.Graphs;
 using ExercisesAlgo.LinkedList;
 using ExercisesAlgo.Mathe;
+using ExercisesAlgo.Stacks;
 using ExercisesAlgo.Strings;
 
 namespace ExercisesAlgo
@@ -18,7 +19,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new MergeSort().Execute();
+            new NearestSmallerElement().Execute();
             Console.ReadKey();
         }
 
