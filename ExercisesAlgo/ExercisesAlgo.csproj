@@ -104,6 +104,7 @@
     <Compile Include="LinkedList\ReverseAlternative.cs" />
     <Compile Include="LinkedList\ReverseK.cs" />
     <Compile Include="LinkedList\RotateList.cs" />
+    <Compile Include="LinkedList\Substract.cs" />
     <Compile Include="LinkedList\Swap2Nodes.cs" />
     <Compile Include="Mathe\CityTour.cs" />
     <Compile Include="Mathe\CommonDivisor.cs" />
@@ -125,7 +126,14 @@
     <Compile Include="Arrays\RotateMatrix.cs" />
     <Compile Include="Arrays\SimpleQueries.cs" />
     <Compile Include="Arrays\WaveSort.cs" />
+    <Compile Include="Queues\FirstNRcharacter.cs" />
+    <Compile Include="Queues\SlidingMax.cs" />
+    <Compile Include="Recursion\ModExp.cs" />
+    <Compile Include="Recursion\ReverseListRec.cs" />
+    <Compile Include="Stacks\LargestRectangleArea.cs" />
     <Compile Include="Stacks\NearestSmallerElement.cs" />
+    <Compile Include="Stacks\RedundantBraces.cs" />
+    <Compile Include="Stacks\SimplifyDirectoryPath.cs" />
     <Compile Include="Strings\AddBinaryStrings.cs" />
     <Compile Include="Strings\AmazingSubarrays.cs" />
     <Compile Include="Strings\Atoi.cs" />

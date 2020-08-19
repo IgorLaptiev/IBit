@@ -10,6 +10,8 @@ using ExercisesAlgo.BS;
 using ExercisesAlgo.Graphs;
 using ExercisesAlgo.LinkedList;
 using ExercisesAlgo.Mathe;
+using ExercisesAlgo.Queues;
+using ExercisesAlgo.Recursion;
 using ExercisesAlgo.Stacks;
 using ExercisesAlgo.Strings;
 
@@ -19,7 +21,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new NearestSmallerElement().Execute();
+            new ModExp().Execute();
             Console.ReadKey();
         }
 
