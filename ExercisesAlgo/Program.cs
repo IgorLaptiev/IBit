@@ -8,12 +8,15 @@ using ExercisesAlgo._2Pointers;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
 using ExercisesAlgo.Graphs;
+using ExercisesAlgo.Hashing;
+using ExercisesAlgo.HeapsAndMaps;
 using ExercisesAlgo.LinkedList;
 using ExercisesAlgo.Mathe;
 using ExercisesAlgo.Queues;
 using ExercisesAlgo.Recursion;
 using ExercisesAlgo.Stacks;
 using ExercisesAlgo.Strings;
+using ExercisesAlgo.Trees;
 
 namespace ExercisesAlgo
 {
@@ -21,7 +24,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            new ModExp().Execute();
+            LeastCommonAncestor.Execute();
             Console.ReadKey();
         }
 

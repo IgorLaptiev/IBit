@@ -86,6 +86,9 @@
     <Compile Include="BS\RotatedArray.cs" />
     <Compile Include="BS\Sqrt.cs" />
     <Compile Include="Graphs\MinimumPermutations.cs" />
+    <Compile Include="Hashing\2Sum.cs" />
+    <Compile Include="Hashing\SubstringConcatenation.cs" />
+    <Compile Include="HeapsAndMaps\LRU.cs" />
     <Compile Include="LinkedList\AddTwoNumbers.cs" />
     <Compile Include="LinkedList\DeleteDuplicates.cs" />
     <Compile Include="LinkedList\DeleteDuplicates2.cs" />
@@ -128,8 +131,13 @@
     <Compile Include="Arrays\WaveSort.cs" />
     <Compile Include="Queues\FirstNRcharacter.cs" />
     <Compile Include="Queues\SlidingMax.cs" />
+    <Compile Include="Recursion\Combinations.cs" />
+    <Compile Include="Recursion\CombinationsSum.cs" />
+    <Compile Include="Recursion\LetterPhone.cs" />
     <Compile Include="Recursion\ModExp.cs" />
     <Compile Include="Recursion\ReverseListRec.cs" />
+    <Compile Include="Recursion\Subset.cs" />
+    <Compile Include="Recursion\UniquePerm.cs" />
     <Compile Include="Stacks\LargestRectangleArea.cs" />
     <Compile Include="Stacks\NearestSmallerElement.cs" />
     <Compile Include="Stacks\RedundantBraces.cs" />
@@ -143,6 +151,7 @@
     <Compile Include="Strings\LastWord.cs" />
     <Compile Include="Strings\LongestPalindromicSubstring.cs" />
     <Compile Include="Strings\MakePalindrome.cs" />
+    <Compile Include="Strings\MinimumAppendsPalindrome.cs" />
     <Compile Include="Strings\MinWindow.cs" />
     <Compile Include="Strings\Palindrome.cs" />
     <Compile Include="Strings\PowerOf2.cs" />
@@ -154,6 +163,8 @@
     <Compile Include="Strings\ValidNumber.cs" />
     <Compile Include="Strings\Versions.cs" />
     <Compile Include="Strings\ZigZagString.cs" />
+    <Compile Include="Trees\LeastCommonAncestor.cs" />
+    <Compile Include="Trees\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
