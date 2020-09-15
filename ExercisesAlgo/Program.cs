@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using ExercisesAlgo._2Pointers;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
+using ExercisesAlgo.Dynamic;
 using ExercisesAlgo.Graphs;
 using ExercisesAlgo.Hashing;
 using ExercisesAlgo.HeapsAndMaps;
@@ -24,7 +25,7 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            LeastCommonAncestor.Execute();
+            MagicianChocolates.Execute();
             Console.ReadKey();
         }
 

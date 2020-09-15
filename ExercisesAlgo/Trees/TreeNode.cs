@@ -1,4 +1,6 @@
-﻿namespace ExercisesAlgo.Trees
+﻿using System;
+
+namespace ExercisesAlgo.Trees
 {
     public class TreeNode
     {
@@ -6,5 +8,11 @@
       public TreeNode left;
       public TreeNode right;
       public TreeNode(int x) { this.val = x; this.left = this.right = null; }
-  }
+
+        public override string ToString()
+        {
+            return val.ToString();
+        }
+
+    }
 }

@@ -7,6 +7,7 @@ namespace ExercisesAlgo.LinkedList
     {
         public int val;
         public ListNode next;
+        public ListNode previous;
 
         public ListNode(int x)
         {

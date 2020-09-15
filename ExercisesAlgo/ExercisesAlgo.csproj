@@ -85,10 +85,15 @@
     <Compile Include="BS\RangeSearch.cs" />
     <Compile Include="BS\RotatedArray.cs" />
     <Compile Include="BS\Sqrt.cs" />
+    <Compile Include="Dynamic\Paths.cs" />
     <Compile Include="Graphs\MinimumPermutations.cs" />
     <Compile Include="Hashing\2Sum.cs" />
     <Compile Include="Hashing\SubstringConcatenation.cs" />
     <Compile Include="HeapsAndMaps\LRU.cs" />
+    <Compile Include="HeapsAndMaps\MagicianChocolates.cs" />
+    <Compile Include="HeapsAndMaps\NMaxPair.cs" />
+    <Compile Include="HeapsAndMaps\PriorityQueue.cs" />
+    <Compile Include="HeapsAndMaps\PTreeNode.cs" />
     <Compile Include="LinkedList\AddTwoNumbers.cs" />
     <Compile Include="LinkedList\DeleteDuplicates.cs" />
     <Compile Include="LinkedList\DeleteDuplicates2.cs" />
@@ -163,12 +168,32 @@
     <Compile Include="Strings\ValidNumber.cs" />
     <Compile Include="Strings\Versions.cs" />
     <Compile Include="Strings\ZigZagString.cs" />
+    <Compile Include="Trees\BTreePrinter.cs" />
+    <Compile Include="Trees\DiagonalTraversal.cs" />
+    <Compile Include="Trees\HotelReviews.cs" />
+    <Compile Include="Trees\InorderTraversal.cs" />
+    <Compile Include="Trees\InPostOrd.cs" />
+    <Compile Include="Trees\IsBST.cs" />
     <Compile Include="Trees\LeastCommonAncestor.cs" />
+    <Compile Include="Trees\Numbers.cs" />
+    <Compile Include="Trees\PathsWithSum.cs" />
+    <Compile Include="Trees\PostOrder.cs" />
+    <Compile Include="Trees\RecoverBST.cs" />
+    <Compile Include="Trees\T2Sum.cs" />
     <Compile Include="Trees\TreeNode.cs" />
+    <Compile Include="Trees\TreePrinter.cs" />
+    <Compile Include="Trees\Trie.cs" />
+    <Compile Include="Trees\UniquePrefix.cs" />
+    <Compile Include="Trees\VerticalOrderTraversal.cs" />
+    <Compile Include="Trees\ViewTree.cs" />
+    <Compile Include="Trees\ZigzagLevelOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
