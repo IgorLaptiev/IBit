@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using ConsoleDump;
 using ExercisesAlgo._2Pointers;
+using ExercisesAlgo.Arrays;
 using ExercisesAlgo.Bits;
 using ExercisesAlgo.BS;
 using ExercisesAlgo.Dynamic;
 using ExercisesAlgo.Graphs;
+using ExercisesAlgo.Greedy;
 using ExercisesAlgo.Hashing;
 using ExercisesAlgo.HeapsAndMaps;
 using ExercisesAlgo.LinkedList;
@@ -25,10 +27,8 @@ namespace ExercisesAlgo
     {
         static void Main(string[] args)
         {
-            MagicianChocolates.Execute();
+            new Parentheses().Execute();
             Console.ReadKey();
         }
-
     }
-
 }

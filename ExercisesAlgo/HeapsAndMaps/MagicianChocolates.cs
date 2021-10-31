@@ -22,7 +22,7 @@ namespace ExercisesAlgo.HeapsAndMaps
             B.ForEach(b => pq.Enqueue(b));
             for (var i = 0; i < A; i++)
             {
-                var q = pq.Pop();
+                var q = pq.Dequeue();
                 res = (res + q);
                 pq.Enqueue((int)Math.Floor(q / 2m));
             }

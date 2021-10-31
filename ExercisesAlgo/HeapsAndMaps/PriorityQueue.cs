@@ -1,10 +1,100 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ExercisesAlgo.HeapsAndMaps
 {
+
     public class PriorityQueue<T> : IEnumerable<T>
+      where T : IComparable
+    {
+        List<T> data = new List<T>();
+
+        public void Enqueue(T value)
+        {
+            data.Add(value);
+            MoveUp(data.Count - 1);
+        }
+
+        public T Peek()
+        {
+            return data.FirstOrDefault();
+        }
+
+        public T Tail()
+        {
+            return data.Last();
+        }
+
+        public T Dequeue()
+        {
+            var res = data.FirstOrDefault();
+            data[0] = data.Last();
+            data.RemoveAt(data.Count - 1);
+            MoveDown(0);
+            return res;
+        }
+
+        public void RemoveTail()
+        {
+            data.RemoveAt(data.Count - 1);
+        }
+
+        private void MoveDown(int ind)
+        {
+            var last = data.Count - 1;
+            var left = (ind * 2) + 1;
+            var right = (ind * 2) + 2;
+            if (right > last)
+            {
+                if (left <= last && data[left].CompareTo(data[ind]) > 0)
+                {
+                    Swap(left, ind);
+                }
+            }
+            else if (data[left].CompareTo(data[right]) > 0 && data[left].CompareTo(data[ind])> 0)
+            {
+                Swap(left, ind);
+                MoveDown(left);
+            }
+            else if (data[right].CompareTo(data[left]) > 0  && data[right].CompareTo(data[ind]) > 0)
+            {
+                Swap(right, ind);
+                MoveDown(right);
+            }
+        }
+
+        private void MoveUp(int ind)
+        {
+            var parentInd = (ind - 1) / 2;
+            if (parentInd < 0) return;
+            if (data[parentInd].CompareTo(data[ind]) < 0)
+            {
+                Swap(ind, parentInd);
+                MoveUp(parentInd);
+            }
+        }
+
+        private void Swap(int ind, int ind2)
+        {
+            var temp = data[ind];
+            data[ind] = data[ind2];
+            data[ind2] = temp;
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return data.GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return data.GetEnumerator();
+        }
+    }
+
+    public class PriorityList<T> : IEnumerable<T>
         where T : IComparable
     {
         private PTreeNode<T> head = new PTreeNode<T>();

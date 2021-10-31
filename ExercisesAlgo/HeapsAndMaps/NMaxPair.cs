@@ -13,8 +13,8 @@ namespace ExercisesAlgo.HeapsAndMaps
 
         public static void Execute()
         {
-            new NMaxPair().solve(new List<int> { 3, 2, 4, 2 }, new List<int> { 4, 3, 1, 2 }).Dump();
-            //new NMaxPair().solve(new List<int> { 3, 1, 3, 1 }, new List<int> { 1, 4, 1, 4 }).Dump();
+            //new NMaxPair().solve(new List<int> { 3, 2, 4, 2 }, new List<int> { 4, 3, 1, 2 }).Dump();
+            new NMaxPair().solve(new List<int> { 3, 1, 3, 1 }, new List<int> { 1, 4, 1, 4 }).Dump();
         }
 
         List<int> sums = new List<int>();

@@ -60,6 +60,7 @@
     <Compile Include="2Pointers\Triangles.cs" />
     <Compile Include="2Pointers\WaterTank.cs" />
     <Compile Include="Arrays\ArrayPermutation.cs" />
+    <Compile Include="Arrays\BalanceArray.cs" />
     <Compile Include="Arrays\Distance.cs" />
     <Compile Include="Arrays\Duplicates.cs" />
     <Compile Include="Arrays\Hotel.cs" />
@@ -67,7 +68,15 @@
     <Compile Include="Arrays\MaximumConsecutiveGap.cs" />
     <Compile Include="Arrays\MaximumUnsortedSubArray.cs" />
     <Compile Include="Arrays\Maxspprod.cs" />
+    <Compile Include="Arrays\MaxSumSquareSubMatrix.cs" />
+    <Compile Include="Arrays\MaxTriplet.cs" />
+    <Compile Include="Arrays\MergeIntervals.cs" />
+    <Compile Include="Arrays\MinimumLights.cs" />
     <Compile Include="Arrays\MissingPositive.cs" />
+    <Compile Include="Arrays\PerfectPeak.cs" />
+    <Compile Include="Arrays\PickBothSides.cs" />
+    <Compile Include="Arrays\Rates.cs" />
+    <Compile Include="Arrays\Test.cs" />
     <Compile Include="Bits\DifferentBits.cs" />
     <Compile Include="Bits\DivideIntegers.cs" />
     <Compile Include="Bits\MinXORvalue.cs" />
@@ -86,9 +95,21 @@
     <Compile Include="BS\RotatedArray.cs" />
     <Compile Include="BS\Sqrt.cs" />
     <Compile Include="Dynamic\Paths.cs" />
+    <Compile Include="Graphs\Cources.cs" />
+    <Compile Include="Graphs\CyclesInDirectedGraph.cs" />
+    <Compile Include="Graphs\KnightMoves.cs" />
+    <Compile Include="Graphs\LargestDistance.cs" />
     <Compile Include="Graphs\MinimumPermutations.cs" />
+    <Compile Include="Graphs\ValidPath.cs" />
+    <Compile Include="Graphs\WordLadder.cs" />
+    <Compile Include="Graphs\WordSearchBoard.cs" />
+    <Compile Include="Greedy\Candies.cs" />
+    <Compile Include="Greedy\GasStation.cs" />
+    <Compile Include="Greedy\LargestPermutation.cs" />
+    <Compile Include="Greedy\MeetingRooms.cs" />
     <Compile Include="Hashing\2Sum.cs" />
     <Compile Include="Hashing\SubstringConcatenation.cs" />
+    <Compile Include="HeapsAndMaps\KLargest.cs" />
     <Compile Include="HeapsAndMaps\LRU.cs" />
     <Compile Include="HeapsAndMaps\MagicianChocolates.cs" />
     <Compile Include="HeapsAndMaps\NMaxPair.cs" />
@@ -120,6 +141,7 @@
     <Compile Include="Mathe\FizzBuzz.cs" />
     <Compile Include="Mathe\HammingDistance.cs" />
     <Compile Include="Mathe\LargestCoprimeDivisor.cs" />
+    <Compile Include="Mathe\NextSimilarNumber.cs" />
     <Compile Include="Mathe\Numbers.cs" />
     <Compile Include="Mathe\PolindromInteger.cs" />
     <Compile Include="Mathe\PowerOfIntegers.cs" />
@@ -128,21 +150,29 @@
     <Compile Include="Mathe\RearrangeArray.cs" />
     <Compile Include="Mathe\ReverseInteger.cs" />
     <Compile Include="Mathe\SortedPermutationRank.cs" />
+    <Compile Include="Mathe\Steps.cs" />
     <Compile Include="Mathe\TrailingZeros.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Arrays\RotateMatrix.cs" />
     <Compile Include="Arrays\SimpleQueries.cs" />
     <Compile Include="Arrays\WaveSort.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="Queues\FirstNRcharacter.cs" />
     <Compile Include="Queues\SlidingMax.cs" />
     <Compile Include="Recursion\Combinations.cs" />
     <Compile Include="Recursion\CombinationsSum.cs" />
     <Compile Include="Recursion\LetterPhone.cs" />
     <Compile Include="Recursion\ModExp.cs" />
+    <Compile Include="Recursion\Parentheses.cs" />
     <Compile Include="Recursion\ReverseListRec.cs" />
     <Compile Include="Recursion\Subset.cs" />
     <Compile Include="Recursion\UniquePerm.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="Stacks\LargestRectangleArea.cs" />
     <Compile Include="Stacks\NearestSmallerElement.cs" />
     <Compile Include="Stacks\RedundantBraces.cs" />
@@ -151,6 +181,7 @@
     <Compile Include="Strings\AmazingSubarrays.cs" />
     <Compile Include="Strings\Atoi.cs" />
     <Compile Include="Strings\CountAndSay.cs" />
+    <Compile Include="Strings\Decode.cs" />
     <Compile Include="Strings\JsonFormatter.cs" />
     <Compile Include="Strings\JustifiedText.cs" />
     <Compile Include="Strings\LastWord.cs" />
@@ -170,6 +201,7 @@
     <Compile Include="Strings\ZigZagString.cs" />
     <Compile Include="Trees\BTreePrinter.cs" />
     <Compile Include="Trees\DiagonalTraversal.cs" />
+    <Compile Include="Trees\GenerateTrees.cs" />
     <Compile Include="Trees\HotelReviews.cs" />
     <Compile Include="Trees\InorderTraversal.cs" />
     <Compile Include="Trees\InPostOrd.cs" />
@@ -184,6 +216,7 @@
     <Compile Include="Trees\TreePrinter.cs" />
     <Compile Include="Trees\Trie.cs" />
     <Compile Include="Trees\UniquePrefix.cs" />
+    <Compile Include="Trees\ValidateBinaryTreeNodes.cs" />
     <Compile Include="Trees\VerticalOrderTraversal.cs" />
     <Compile Include="Trees\ViewTree.cs" />
     <Compile Include="Trees\ZigzagLevelOrder.cs" />
@@ -191,9 +224,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="NewFolder1\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
